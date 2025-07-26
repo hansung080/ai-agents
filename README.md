@@ -5,4 +5,4 @@ Various AI agents
 - Python 3.12
 
 ## Agents
-- gpt: gpt_basic
+- gpt: gpt_basic, one_shot, few_shot, single_turn, multi_turn 
