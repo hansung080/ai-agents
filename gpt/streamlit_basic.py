@@ -7,11 +7,15 @@ load_dotenv()
 
 with st.sidebar:
     # openai_api_key = st.text_input("OpenAI API Key", key="chatbot_api_key", type="password")
+    # "[Get an OpenAI API key](https://platform.openai.com/account/api-keys)"
+    # "[View the source code](https://github.com/streamlit/llm-examples/blob/main/Chatbot.py)"
+    # "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/llm-examples?quickstart=1)"
+
     openai_api_key = os.getenv("OPENAI_API_KEY")
     gpt_model = os.getenv("GPT_MODEL")
-    "[Get an OpenAI API key](https://platform.openai.com/account/api-keys)"
-    "[View the source code](https://github.com/streamlit/llm-examples/blob/main/Chatbot.py)"
-    "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/llm-examples?quickstart=1)"
+    "[Get an OpenAI API key](https://platform.openai.com/api-keys)"
+    "[View the source code](https://github.com/hansung080/ai-agents/blob/main/gpt/streamlit_basic.py)"
+    "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/streamlit/llm-examples?quickstart=1)"
 
 st.title("💬 Chatbot")
 
