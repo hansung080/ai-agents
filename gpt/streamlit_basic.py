@@ -15,7 +15,7 @@ with st.sidebar:
     gpt_model = os.getenv("GPT_MODEL")
     "[Get an OpenAI API key](https://platform.openai.com/api-keys)"
     "[View the source code](https://github.com/hansung080/ai-agents/blob/main/gpt/streamlit_basic.py)"
-    "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/streamlit/llm-examples?quickstart=1)"
+    "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/streamlit/ai-agents?quickstart=1)"
 
 st.title("💬 Chatbot")
 
